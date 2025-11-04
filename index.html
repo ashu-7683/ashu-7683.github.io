@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASHUTOSH KHILAR | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="bg-circle bg-circle-1"></div>
+        <div class="bg-circle bg-circle-2"></div>
+        <div class="bg-circle bg-circle-3"></div>
+        <div class="bg-circle bg-circle-4"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">ASHUTOSH<span>KHILAR</span></a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a>
+                <a href="#technologies" class="nav-link"><i class="fas fa-code"></i> Technologies</a>
+                <a href="#skills" class="nav-link"><i class="fas fa-cogs"></i> Skills</a>
+                <a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a>
+                <a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> Projects</a>
+                <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+                <a href="./assets/Ashutosh_Khilar's_Resume.pdf" class="resume-btn">
+                    <i class="fas fa-download"></i> Resume
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up">
+                <div class="name-container">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight name-animation">Ashutosh Khilar</span></h1>
+                </div>
+                <h2 class="hero-subtitle">Full Stack Python Developer</h2>
+                <p class="hero-description">
+                    I create digital experiences that are fast, responsive, and user-friendly. 
+                    Passionate about clean code and innovative solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <div class="cube-container">
+                    <div class="cube" id="cube">
+                        <div class="cube-face cube-face-front">
+                            <img src="./../ASHU PORTFOLIO/assets/Ashutosh.png" alt="Ashutosh Khilar">
+                        </div>
+                        <div class="cube-face cube-face-back">
+                            <img src="./../ASHU PORTFOLIO/assets/ashu5.jpg" alt="Ashutosh Khilar">
+                        </div>
+                        <div class="cube-face cube-face-right">
+                            <img src="./../ASHU PORTFOLIO/assets/ashu2.jpeg" alt="Ashutosh Khilar">
+                        </div>
+                        <div class="cube-face cube-face-left">
+                            <img src="./../ASHU PORTFOLIO/assets/ashu3.jpg" alt="Ashutosh Khilar">
+                        </div>
+                        <div class="cube-face cube-face-top">
+                            <img src="./../ASHU PORTFOLIO/assets/ashu4.jpg" alt="Ashutosh Khilar">
+                        </div>
+                        <div class="cube-face cube-face-bottom">
+                            <img src="./../ASHU PORTFOLIO/assets/ashu1.jpg" alt="Ashutosh Khilar">
+                        </div>
+                    </div>
+                </div>
+                <div class="cube-controls">
+                    <button class="cube-btn active" data-face="front"></button>
+                    <button class="cube-btn" data-face="back"></button>
+                    <button class="cube-btn" data-face="right"></button>
+                    <button class="cube-btn" data-face="left"></button>
+                    <button class="cube-btn" data-face="top"></button>
+                    <button class="cube-btn" data-face="bottom"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Curious & Passionate Developer</h3>
+                    <p>
+                        I'm a passionate full-stack Python developer with expertise in modern web technologies. 
+                        I love turning complex problems into simple, beautiful designs.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring new technologies, contributing to open source, 
+                        or sharing knowledge with the developer community.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">Freshers</span>
+                            <span class="stat-label">Less than 1 year</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+<section id="technologies" class="technologies">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Technologies</h2>
+        <div class="tech-grid">
+            <div class="tech-category" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="tech-category-title">Core Stack</h3>
+                <div class="tech-items">
+                    <div class="tech-item" data-aos="zoom-in">
+                        <div class="tech-icon python">
+                            <span>Py</span>
+                        </div>
+                        <span class="tech-name">Python</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="tech-icon js">
+                            <span>JS</span>
+                        </div>
+                        <span class="tech-name">JavaScript</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="tech-icon sql">
+                            <span>SQL</span>
+                        </div>
+                        <span class="tech-name">SQL</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="tech-icon html">
+                            <span>HTML</span>
+                        </div>
+                        <span class="tech-name">HTML5</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="tech-icon css">
+                            <span>CSS</span>
+                        </div>
+                        <span class="tech-name">CSS3</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-category" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="tech-category-title">Frameworks & Libraries</h3>
+                <div class="tech-items">
+                    <div class="tech-item" data-aos="zoom-in">
+                        <div class="tech-icon react">
+                            <span>R</span>
+                        </div>
+                        <span class="tech-name">React</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="tech-icon django">
+                            <span>Dj</span>
+                        </div>
+                        <span class="tech-name">Django</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="tech-icon numpy">
+                            <span>NP</span>
+                        </div>
+                        <span class="tech-name">NumPy</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="tech-icon pandas">
+                            <span>Pd</span>
+                        </div>
+                        <span class="tech-name">Pandas</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="tech-icon matplotlib">
+                            <span>Mt</span>
+                        </div>
+                        <span class="tech-name">Matplotlib</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="tech-icon bootstrap">
+                            <span>B</span>
+                        </div>
+                        <span class="tech-name">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-category" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="tech-category-title">Tools</h3>
+                <div class="tech-items">
+                    <div class="tech-item" data-aos="zoom-in">
+                        <div class="tech-icon git">
+                            <span>Git</span>
+                        </div>
+                        <span class="tech-name">Git</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="tech-icon vscode">
+                            <span>VS</span>
+                        </div>
+                        <span class="tech-name">VS Code</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="tech-icon jupyter">
+                            <span>Jp</span>
+                        </div>
+                        <span class="tech-name">Jupyter</span>
+                    </div>
+                    <div class="tech-item" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="tech-icon idle">
+                            <span>Id</span>
+                        </div>
+                        <span class="tech-name">IDLE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-right">
+                    <h3 class="skill-category-title">Technical Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Web Development</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Data Analysis</span>
+                                <span class="skill-percent">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Application Development</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Machine Learning</span>
+                                <span class="skill-percent">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-left">
+                    <h3 class="skill-category-title">Soft Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Problem Solving</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Teamwork</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Communication</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Time Management</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Languages Section -->
+<!-- Language Expertise Section -->
+<section id="languages" class="languages">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Language Expertise</h2>
+        
+        <div class="languages-container">
+            <div class="language-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="language-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <div class="language-content">
+                    <h3 class="language-name">English</h3>
+                    <div class="language-level">
+                        <span class="level-text">Advanced</span>
+                        <div class="level-bar">
+                            <div class="level-progress" data-level="90"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="language-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="language-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <div class="language-content">
+                    <h3 class="language-name">Hindi</h3>
+                    <div class="language-level">
+                        <span class="level-text">Proficient</span>
+                        <div class="level-bar">
+                            <div class="level-progress" data-level="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="language-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="language-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <div class="language-content">
+                    <h3 class="language-name">Odia</h3>
+                    <div class="language-level">
+                        <span class="level-text">Fluent</span>
+                        <div class="level-bar">
+                            <div class="level-progress" data-level="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="language-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="language-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <div class="language-content">
+                    <h3 class="language-name">Bengali</h3>
+                    <div class="language-level">
+                        <span class="level-text">Intermediate</span>
+                        <div class="level-bar">
+                            <div class="level-progress" data-level="60"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="language-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="language-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <div class="language-content">
+                    <h3 class="language-name">Tamil</h3>
+                    <div class="language-level">
+                        <span class="level-text">Basic</span>
+                        <div class="level-bar">
+                            <div class="level-progress" data-level="30"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Education & Certificates Section -->
+
+    <!-- Education Section -->
+<section id="education" class="education">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Education</h2>
+        <div class="education-grid" data-aos="fade-up">
+            <div class="education-card" data-aos="zoom-in">
+                <div class="education-badge">CGPA: 8.75</div>
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3 class="education-title">Master of Computer Applications (MCA)</h3>
+                <div class="education-institution">Biju Patnaik University of Technology</div>
+                <div class="education-period">
+                    <i class="far fa-calendar"></i>
+                    <span>2023 - 2025</span>
+                </div>
+                <p class="education-description">Specialized in advanced computing, software development and modern web technologies.</p>
+            </div>
+
+            <div class="education-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="education-badge badge-secondary">CGPA: 8.50</div>
+                <div class="education-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <h3 class="education-title">Bachelor of Science (B.Sc)</h3>
+                <div class="education-institution">Fakir Mohan University, Balasore</div>
+                <div class="education-period">
+                    <i class="far fa-calendar"></i>
+                    <span>2020 - 2023</span>
+                </div>
+            </div>
+
+            <div class="education-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="education-badge badge-tertiary">Percentage: 65%</div>
+                <div class="education-icon">
+                    <i class="fas fa-school"></i>
+                </div>
+                <h3 class="education-title">Indian School Certificate (ISC)</h3>
+                <div class="education-institution">Upendra Nath College, Balasore</div>
+                <div class="education-period">
+                    <i class="far fa-calendar"></i>
+                    <span>2018 - 2020</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certificates" class="certificates">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Certifications</h2>
+        <div class="certificates-container" data-aos="fade-up">
+            <div class="certificate-card" data-aos="flip-left">
+                <div class="certificate-image">
+                    <img src="./../ASHU PORTFOLIO/assets/IOT.png" alt="Introduction to Internet of Things">
+                    <div class="certificate-overlay">
+                        <a href="#" class="certificate-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Introduction to Internet of Things</h3>
+                    <p class="certificate-org">NPTEL IIT Kharagpur</p>
+                </div>
+            </div>
+
+            <div class="certificate-card" data-aos="flip-left" data-aos-delay="100">
+                <div class="certificate-image">
+                    <img src="./../ASHU PORTFOLIO/assets/MIS.png" alt="Management Information Systems">
+                    <div class="certificate-overlay">
+                        <a href="#" class="certificate-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Management Information Systems</h3>
+                    <p class="certificate-org">NPTEL IIT Kharagpur</p>
+                </div>
+            </div>
+
+            <div class="certificate-card" data-aos="flip-left" data-aos-delay="200">
+                <div class="certificate-image">
+                    <img src="./../ASHU PORTFOLIO/assets/CC.png" alt="Cloud Computing">
+                    <div class="certificate-overlay">
+                        <a href="#" class="certificate-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Cloud Computing</h3>
+                    <p class="certificate-org">NPTEL IIT Kharagpur</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="flip-left">
+                    <div class="project-image">
+                        <img src="./../ASHU PORTFOLIO/assets/GAN Image.png" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Generative Adversarial Networks for Image Generation</h3>
+                        <p>The objective of this project was to implement and train a GAN model capable of generating high 
+                            quality, realistic images by learning from a real image dataset. The project aimed to explore adversial training techniques, improve generation quality, and evaluate 
+                            performance using standard image generation benchmarks.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tensorflow/Keras</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ashu-7683/GAN_Model.git" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="./../ASHU PORTFOLIO/assets/MOVIE LIKE.png" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Movie Recommendation System</h3>
+                        <p>The object of a movie recommendation system project is to develop a model or system that can 
+                        predict and suggest movies to users based on their preferences and past behaviors. 
+                        The system should be able to provide personalized movie suggestions, enhancing the user’s 
+                        experience and helping them discover movies that align with their tastes.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ashu-7683/Movie_recommendation_system.git" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="./../ASHU PORTFOLIO/assets/ai.png" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Voice Assistant</h3>
+                        <p>The AI Voice Assistant project aims to create a virtual assistant that can understand and respond to user queries through voice commands.
+                            The system should be able to perform tasks such as setting reminders, providing weather updates, and answering general knowledge questions,
+                            all through natural language processing and speech recognition technologies.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Speech Recognition</span>
+                            <span class="tech-tag">HTML</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ashu-7683/AI-Voice-Assistant.git" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="./../ASHU PORTFOLIO/assets/Credit-card-fraud.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Credit Card Fraud Detection</h3>
+                        <p>Built a real-time fraud detection system using ensemble methods on imbalanced datasets. 
+                        Credit card fraud is a significant concern in the financial industry, resulting in billions of dollars in 
+                        losses annually. With the rise of online transactions, the need for robust, accurate, and real-time fraud detection 
+                        systems has become more critical than ever.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ashu-7683/Credit_Card.git" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="./../ASHU PORTFOLIO/assets/portfolio.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio</h3>
+                        <p>Developed a personal portfolio website to showcase my projects and skills. The website is built using HTML, CSS, and JavaScript, and is fully responsive.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ashu-7683/Personal-Portfolio.git" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="./../ASHU PORTFOLIO/assets/swiggy.jpeg" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Swiggy Clone</h3>
+                        <p>Developed a food delivery application similar to Swiggy using Django. The application allows users to browse restaurants, view menus, and place orders online.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">HTML5/CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ashu-7683/swiggy-app.git" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info" data-aos="fade-right">
+                <h3>Let's work together!</h3>
+                <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+                
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">ashutoshkhilar5@gmail.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone</span>
+                            <span class="contact-value">+91-8093924960</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Bangalore, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-section">
+                    <h4>Follow me on</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/ashu-7683" class="social-link github" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ashutoshkhilar7683" class="social-link linkedin" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://x.com/ashutosh_k63132" class="social-link twitter" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                        <a href="https://www.instagram.com/__ashu.u.u__" class="social-link instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://www.facebook.com/ashutosh.khilar.98" class="social-link facebook" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" data-aos="fade-left" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder=" " required>
+                    <label for="name">Your Name</label>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder=" " required>
+                    <label for="email">Your Email</label>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder=" " required>
+                    <label for="subject">Subject</label>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder=" " rows="5" required></textarea>
+                    <label for="message">Your Message</label>
+                    <div class="underline"></div>
+                </div>
+                
+                <button type="submit" class="btn btn-primary submit-btn">
+                    <span class="btn-text">Send Message</span>
+                    <div class="btn-loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                    </div>
+                </button>
+                
+                <div class="form-message" id="formMessage"></div>
+            </form>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ashutosh Khilar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
