@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Ashutosh Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/000000/portfolio.png">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                Ashutosh<span>.</span>
+            </a>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Projects Hero -->
+    <section class="projects-hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <h1>My Projects</h1>
+                    <p class="subtitle">Showcasing My Work & Expertise</p>
+                    <p>Explore my portfolio of web applications, websites, and digital solutions. Each project represents unique challenges and creative solutions implemented with modern technologies and best practices.</p>
+                    <div class="hero-buttons">
+                        <a href="#featured" class="btn btn-lg">
+                            <i class="fas fa-star"></i>
+                            Featured Projects
+                        </a>
+                        <a href="contact.html" class="btn btn-lg btn-outline">
+                            <i class="fas fa-handshake"></i>
+                            Start a Project
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in delay-1">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projects Portfolio">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Filter -->
+    <section id="featured">
+        <div class="container">
+            <div class="section-title">
+                <h2>Project Portfolio</h2>
+                <p>Filter projects by category or technology</p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Application</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                <button class="filter-btn" data-filter="Full Stack">Full Stack</button>
+                <button class="filter-btn" data-filter="AI/ML">AI/ML</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card fade-in" data-category="AI/ML">
+                    <div class="project-image">
+                        <img src="./../NEW PORTFOLIO/assets/GAN Image.png" alt="GAN Image Generation">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashu-7683/GAN_Model.git" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Case Study">
+                                    <i class="fas fa-file-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date"><i class="far fa-calendar"></i> January 2025</span>
+                            <span class="project-category">AI/ML</span>
+                        </div>
+                        <h3>Generative Adversarial Networks for Image Generation</h3>
+                        <p>This research aimed to train a GAN model to produce high-quality, realistic photographs based on a real-world dataset.
+                        The study sought to increase generation quality through adversarial training techniques and assess performance against common picture generating benchmarks.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Deep Learning</span>
+                            <span class="project-tag">Tensorflow</span>
+                            <span class="project-tag">Keras</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card fade-in delay-1" data-category="Full Stack">
+                    <div class="project-image">
+                        <img src="./../NEW PORTFOLIO/assets/MOVIE REC.png" alt="Movie Recommendation System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashu-7683/Movie_recommendation_system.git" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Case Study">
+                                    <i class="fas fa-file-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date"><i class="far fa-calendar"></i> November 2024</span>
+                            <span class="project-category">Full Stack</span>
+                        </div>
+                        <h3>Movie Recommendation System</h3>
+                        <p>A movie recommendation system project aims to create a model that predicts and recommends movies based on user interests and behaviors.
+                            The system should deliver tailored movie suggestions to enhance the user experience and help them discover movies that match their preferences..</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Flask</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">HTML/CSS</span>
+                            <span class="project-tag">Machine Learning</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card fade-in delay-2" data-category="web">
+                    <div class="project-image">
+                        <img src="./../NEW PORTFOLIO/assets/AI RFP.png" alt="AI RFP Manager">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashu-7683/AI-RFP-Manager.git" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Case Study">
+                                    <i class="fas fa-file-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date"><i class="far fa-calendar"></i> October 2025</span>
+                            <span class="project-category">Web Application</span>
+                        </div>
+                        <h3>AI RFP Manager</h3>
+                        <p>This is a web application that streamlines the procurement process using artificial intelligence.
+                            The system helps procurement managers create RFPs from natural language, send them to vendors via email,
+                            automatically parse vendor responses using AI, and compare proposals with AI-powered recommendations.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">API</span>
+                            <span class="project-tag">Open AI</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">HTML/CSS</span>
+                            <span class="project-tag">NLP</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card fade-in" data-category="web">
+                    <div class="project-image">
+                        <img src="./../NEW PORTFOLIO/assets/ai.png" alt="AI Voice Assistant">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashu-7683/AI-Voice-Assistant.git" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Case Study">
+                                    <i class="fas fa-file-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date"><i class="far fa-calendar"></i> August 2025</span>
+                            <span class="project-category">Web Application</span>
+                        </div>
+                        <h3>AI Voice Assistant</h3>
+                        <p>The AI Voice Assistant project intends to develop a virtual assistant capable of understanding and responding to user queries via voice commands.
+                            The system should use natural language processing and speech recognition to schedule reminders,
+                            provide weather updates, and answer general knowledge questions.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">Speech Recognition</span>
+                            <span class="project-tag">HTML/CSS</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card fade-in delay-1" data-category="AI/ML">
+                    <div class="project-image">
+                        <img src="./../NEW PORTFOLIO/assets/Credit-card-fraud.png" alt="Credit Card Fraud Detection">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashu-7683/Credit_Card_Fraud_Detection.git" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Case Study">
+                                    <i class="fas fa-file-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date"><i class="far fa-calendar"></i> September 2024</span>
+                            <span class="project-category">AI/ML</span>
+                        </div>
+                        <h3>Credit Card Fraud Detection</h3>
+                        <p>Developed a real-time fraud detection system employing combined algorithms on imbalanced datasets.
+                            Credit card fraud is a major threat in the financial industry, costing billions of dollars annually.
+                            The increased use of internet transactions need real-time, accurate fraud detection systems.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Scikit-learn</span>
+                            <span class="project-tag">Pandas</span>
+                            <span class="project-tag">NumPy</span>
+                            <span class="project-tag">Machine Learning</span>
+                            <span class="project-tag">Matplotlib</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card fade-in delay-2" data-category="AI/ML">
+                    <div class="project-image">
+                        <img src="./../NEW PORTFOLIO/assets/RAG MODEL.png" alt="Multi Modal RAG">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashu-7683/Multi-Modal-RAG.git" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Case Study">
+                                    <i class="fas fa-file-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date"><i class="far fa-calendar"></i> December 2025</span>
+                            <span class="project-category">AI/ML</span>
+                        </div>
+                        <h3>Multi Modal RAG</h3>
+                        <p>The Multi-Modal Retrieval-Augmented Generation (RAG) system successfully extracted a stuructured fiscal table from the IMF PDF using table parsing (Camelot),
+                            indexed it as CSV text, and retrieved it to generate a context-grounded fiscal summary.
+                            This demostrates accurate table understanding, numerical reasoning, and citation-aware summarization.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">RAG</span>
+                            <span class="project-tag">PDF Parsing</span>
+                            <span class="project-tag">Natural Language Processing</span>
+                            <span class="project-tag">Data Extraction</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">streamlit</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card fade-in" data-category="ecommerce">
+                    <div class="project-image">
+                        <img src="./../NEW PORTFOLIO/assets/swiggy.jpeg" alt="Swiggy Clone">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashu-7683/swiggy-app" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Case Study">
+                                    <i class="fas fa-file-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date"><i class="far fa-calendar"></i> October 2025</span>
+                            <span class="project-category">E-commerce</span>
+                        </div>
+                        <h3>Swiggy Clone</h3>
+                        <p>A full-stack web application replicating the core features of Swiggy, including restaurant listings, menu browsing, and order management.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card fade-in delay-1" data-category="design">
+                    <div class="project-image">
+                        <img src="./../NEW PORTFOLIO/assets/FLIPKART UI.png" alt="Flipkart Redesign">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashu-7683/FLIPKART_UI.git" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Case Study">
+                                    <i class="fas fa-file-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date"><i class="far fa-calendar"></i> June 2025</span>
+                            <span class="project-category">UI/UX Design</span>
+                        </div>
+                        <h3>Flipkart User interface</h3>
+                        <p>A responsive UI redesign for Flipkart's main landing page, focusing on improved navigation, product browsing, and user experience.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">Bootstrap</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card fade-in delay-1" data-category="AI/ML">
+                    <div class="project-image">
+                        <img src="./../NEW PORTFOLIO/assets/spam-mail.jpg" alt="Spam Mail Prediction">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ashu-7683/Spam_Mail_Prediction.git" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Case Study">
+                                    <i class="fas fa-file-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="project-date"><i class="far fa-calendar"></i> October 2024</span>
+                            <span class="project-category">AI/ML</span>
+                        </div>
+                        <h3>Spam Mail Prediction</h3>
+                        <p>A machine learning model to classify emails as spam or not spam using Python Pandas NumPy Scikit-learn Streamlit Matplotlib/Seaborn.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Pandas</span>
+                            <span class="project-tag">Scikit-learn</span>
+                            <span class="project-tag">Streamlit</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Matplotlib</span>
+                        </div>
+                        <a href="#" class="btn btn-sm">
+                            View Details
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="text-center" style="margin-top: 60px;">
+                <button class="btn btn-lg" id="loadMore">
+                    <i class="fas fa-sync-alt"></i>
+                    Load More Projects
+                </button>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Project Statistics -->
+    <section style="background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 100px 0;">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="color: white;">Project Statistics</h2>
+                <p style="color: rgba(255, 255, 255, 0.8);">By the numbers</p>
+            </div>
+            <div class="stats-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; text-align: center; margin-top: 60px;">
+                <div class="stat-item fade-in">
+                    <div class="stat-number" style="font-size: 3rem; font-weight: 700; margin-bottom: 15px; color: white;">20+</div>
+                    <div class="stat-label" style="font-size: 1.2rem; color: rgba(255, 255, 255, 0.9);">Projects Completed</div>
+                </div>
+                <div class="stat-item fade-in delay-2">
+                    <div class="stat-number" style="font-size: 3rem; font-weight: 700; margin-bottom: 15px; color: white;">15+</div>
+                    <div class="stat-label" style="font-size: 1.2rem; color: rgba(255, 255, 255, 0.9);">Technologies Used</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number" style="font-size: 3rem; font-weight: 700; margin-bottom: 15px; color: white;">95%</div>
+                    <div class="stat-label" style="font-size: 1.2rem; color: rgba(255, 255, 255, 0.9);">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div class="cta-box" style="background: linear-gradient(135deg, var(--primary), var(--secondary)); padding: 80px; border-radius: 30px; text-align: center; color: white;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: white;">Ready to Start Your Project?</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; color: rgba(255, 255, 255, 0.9);">
+                    Let's collaborate to bring your ideas to life. Whether you need a website, mobile app, or custom software solution, I'm here to help.
+                </p>
+                <a href="contact.html" class="btn btn-lg" style="background: white; color: var(--primary);">
+                    <i class="fas fa-paper-plane"></i>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Ashutosh<span>.</span></h3>
+                    <p>Software Developer creating exceptional digital experiences with modern technologies and innovative solutions.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/ashu-7683" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ashutoshkhilar7683/" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://x.com/ashutosh_k63132" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/__ashu.u.u__" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/ashutosh.khilar.98" class="social-link" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="projects.html"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> UI/UX Design</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Mobile Apps</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Application Development</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <div class="footer-newsletter">
+                        <p>Subscribe to my newsletter for the latest updates and insights on web development.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="ashutoshkhilar5@gmail.com" required>
+                            <button type="submit" class="btn btn-sm">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Ashutosh. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #ef4444;"></i> by Ashutosh</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <style>
+        .project-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+        
+        .project-date {
+            color: var(--gray);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .project-category {
+            background: var(--primary);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .cta-box {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-box::before {
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            top: -150px;
+            right: -150px;
+        }
+        
+        .cta-box::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            bottom: -100px;
+            left: -100px;
+        }
+    </style>
+    <script>
+        // Load More Projects Functionality
+        document.getElementById('loadMore')?.addEventListener('click', function() {
+            const btn = this;
+            const originalText = btn.innerHTML;
+            
+            // Show loading state
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading...';
+            btn.disabled = true;
+            
+            // Simulate loading more projects
+            setTimeout(() => {
+                // In a real application, you would fetch more projects from an API
+                showNotification('More projects loaded successfully!', 'success');
+                
+                // Reset button
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+            }, 1500);
+        });
+    </script>
+</body>
+</html>
