@@ -1219,3 +1219,39 @@ footer {
     font-size: 0.95rem;
 }
 
+
+/* Languages Section */
+.languages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.language-card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.language-card:hover {
+    transform: translateY(-10px);
+}
+
+.language-card i {
+    font-size: 3rem;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.language-card h3 {
+    margin-bottom: 10px;
+    color: var(--dark);
+}
+
+.language-card p {
+    color: var(--gray);
+}
